@@ -30,6 +30,9 @@ be jumper'd, all 4 to-be-wired driver slots.
 6. Fan5 (3 pin wired to the chamber heater fan on the left)
 7. Fan6 (3 pin wired to the chamber heater fan on the right)
 
+Mount the 70mm fan on the chassis over the CB1.
+Mount the 2x 40mm fans over the bed heater mosfet & SSR.  Wire them to the just always-on power.
+
 ## Power Pins:
 1. J41+ to Power+ and jumped to Motor Power+
 2. J41- to Power- and jumped to Motor Power-

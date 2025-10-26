@@ -1,6 +1,8 @@
 # FunManta
 Documenting replacing the controller on a Funmat HT with a Manta M8p
 
+I really only care about nylon and I have designed this in such a way that it exudes my apathy.
+
 In this document I have wired it with a 1.1 MantaM8p.  Please reference their documentation: [Here](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/BIGTREETECH%20MANTA%20M8P%20V1.0%26V1.1%20User%20Manual.pdf)
 
 ![My Shitty wiring](mainboard.jpg)
@@ -81,6 +83,10 @@ J30's latch probably needs to get cut off as it will run into a connector
 1. THB to J13
 2. TH0 to J7
 3. TH1 to J11
+
+**You need to replace the hotend heater temp sensor with a 100K unless you want to figure out what resistor or thermal sensor driver to use.  I couldn't figure it out with the stock sensor.**
+What I did was use some thin copper to shim the sensor, but if you have a drill press, you can just drill a properly sized hole and drill and tap a set screw into it.  My shim is super tight and hasn't moved even though I'm running at 250mm/s, but sizing it and forming it sucked.
+**Just drill and tap.**
 
 ## Power up:
 Follow the instructions from the user manual.  You'll need to build the firmware and generally follow the instructions [Here](https://github.com/bigtreetech/Manta-M8P/tree/master/V1.0_V1.1)
